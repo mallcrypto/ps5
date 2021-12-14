@@ -1,7 +1,7 @@
 {
   "name": "frontend_base_dapp",
   "version": "0.1.0",
-  "homepage": "https://grondormer.github.io/Rudebros",
+  "homepage": "https://mallcrypto.github.io/PS5",
   "private": true,
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0",
@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "truffle-plugin-verify": "^0.5.14"
   }
 }
