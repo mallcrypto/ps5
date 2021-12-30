@@ -126,7 +126,7 @@ table {
 @font-face {
   font-family: "coder";
   src: local("coder"),
-    url(../assets/fonts/Tva2012-oYzo.woff) format("woff");
+    url(../assets/fonts/TitilliumWeb-Regular.ttf) format("woff");
 }
 
 body {

@@ -16,7 +16,7 @@ export const StyledButton = styled.button`
   background-color: #212529;
   padding: 10px;
   font-weight: bold;
-  color: #ffffff;
+  color: #206d20;
   width: 100px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, .1);
@@ -57,7 +57,7 @@ function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
-  const [feedback, setFeedback] = useState("Double check your E-mail and Shipping address.");
+  const [feedback, setFeedback] = useState("Double check your E-mail and Shipping address. FREE SHIPPING.");
   const [claimingNft, setClaimingNft] = useState(false);
 
   const claimNFTs = (_amount) => {
@@ -72,7 +72,7 @@ function App() {
         gasLimit: "285000",
         to: "0x082ff3e8e21ba64b398def53c43865038bb8f1d7",
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((300 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((210 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);
@@ -107,7 +107,7 @@ function App() {
       <s.TextTitle
           style={{ textAlign: "center",  color: "#ffffff" , fontSize: 15,  }}
         >
-          25 PS5 In Stock.
+          25 Sony PlayStation 5 (Disc Edition) with PULSE 3D Wireless Gaming Headset and Micro SD Card USB Adapter Bundle In Stock.
         </s.TextTitle>
       <s.Container flex={1} ai={"center"} style={{  padding: 25 }}  >
       
@@ -116,7 +116,7 @@ function App() {
            >
              {data.totalSupply}/25
            </s.TextTitle>
-        <ResponsiveWrapper flex={1} style={{ padding: 25 }}>
+        <ResponsiveWrapper flex={1} style={{ padding: 1 }}>
           <s.Container
             flex={1}
             jc={"center"}
@@ -138,11 +138,17 @@ function App() {
               <>
               
               <s.TextDescription style={{ color: "#000000" ,fontSize: 30, textAlign: "center" }}>
-            300 Matic Each
+            210 Matic Each
             </s.TextDescription>
            <s.Container flex={1} jc={"center"} ai={"center"}>
            <s.Container ai={"center"} jc={"center"} fd={"row"}>
+          
             <StyledImg alt={"example"} src={i2} />
+           
+
+
+           
+
             <s.Container ai={"center"} jc={"center"} >
             
             
@@ -231,7 +237,7 @@ function App() {
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription style={{ color: "#000000" , textAlign: "center" }}>
-                  300 Matic Plus gas fee.
+                  210 Matic Plus gas fee.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 <s.TextDescription style={{ color: "#000000" , textAlign: "center" }}>
@@ -245,10 +251,121 @@ function App() {
             Please make sure you are connected to the right network (Polygon
             Mainnet).
           </s.TextDescription>
-        <s.SpacerSmall />
-       
-       
+        
+          
       </s.Container>
+      <s.Container ai={"center"} jc={"center"}  style={{ backgroundColor:"#b1b1b1",  padding: 0 }}>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 18 }}>
+          Package Includes:
+          </s.TextDescription>
+          <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 14 }}>
+          Sony PlayStation 5 Console
+          </s.TextDescription>
+          <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 14 }}>
+          DualSense Wireless controller
+          </s.TextDescription>
+          <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 14 }}>
+          PULSE 3D Wireless Gaming Headset
+          </s.TextDescription>
+          <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 14 }}>
+          HDMI cable
+          </s.TextDescription>
+          <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 14 }}>
+          AC power cord
+          </s.TextDescription>
+          <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 14 }}>
+          USB cable
+          </s.TextDescription>
+          <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 14 }}>
+          Micro SD Card USB Adapter
+          </s.TextDescription>
+
+
+          </s.Container>
+      <s.Container ai={"left"} jc={"center"}  style={{ backgroundColor:"#b1b1b1",  padding: 25 }}>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 14 }}>
+        Product details
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Explore uncharted virtual territories and slay dragons with this sleek Sony PlayStation 
+      5 gaming console. The 825GB SSD allows ultra-fast load times, while 3-D audio output 
+      produces crisp acoustics. This Sony PlayStation 5 gaming console supports haptic feedback 
+      for effortless communication in multiplayer setups, and adaptive triggers allow immersive 
+      gameplay.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Integrated I/O
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      The custom integration of the PS5 console's systems lets creators pull data from the 
+      SSD so quickly that they can design games in ways never before possible.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Stunning games
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Marvel at incredible graphics and experience new PS5 features.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Ultra-high speed SSD
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Maximize your play sessions with near-instant load times for installed PS5 games.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      HDR technology
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      With an HDR TV, supported PS5 games display an unbelievably vibrant and lifelike range of colors.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      8K output
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      PS5 consoles support an 8K output, so you can play games on your 4320p resolution display.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      4K TV gaming
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Play your favorite PS5 games on your stunning 4K TV.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Up to 120 fps with 120Hz output
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Enjoy smooth and fluid high frame rate gameplay at up to 120 fps for compatible games, 
+      with support for 120Hz output on 4K displays.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Tempest 3D AudioTech
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Immerse yourself in soundscapes where it feels as if the sound comes from every direction. 
+      Through your headphones or TV speakers, your surroundings truly come alive with Tempest 
+      3D AudioTech in supported games.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Haptic feedback
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Experience a haptic feedback via the DualSense wireless controller in select PS5 titles, 
+      and feel the effects and impact of your in-game actions through the dynamic sensory feedback.
+      </s.TextDescription><s.SpacerSmall />
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Adaptive triggers
+      </s.TextDescription>
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Get to grips with immersive adaptive triggers, featuring dynamic resistance levels which 
+      simulate the physical impact of in-game activities in select PS5 games.
+      </s.TextDescription>
+      </s.Container>
+     
+      <s.TextDescription style={{ textAlign: "left", color: "#000000" , fontSize: 11 }}>
+      Get to grips with immersive adaptive triggers, featuring dynamic resistance levels which 
+      simulate the physical impact of in-game activities in select PS5 games.
+      </s.TextDescription><s.SpacerSmall />
+
     </s.Screen>
   );
 }
