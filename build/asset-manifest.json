@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/PS5/static/css/main.bab75964.chunk.css",
-    "main.js": "/PS5/static/js/main.9e52a2c5.chunk.js",
-    "main.js.map": "/PS5/static/js/main.9e52a2c5.chunk.js.map",
-    "runtime-main.js": "/PS5/static/js/runtime-main.df937b84.js",
-    "runtime-main.js.map": "/PS5/static/js/runtime-main.df937b84.js.map",
-    "static/js/2.0e54fc90.chunk.js": "/PS5/static/js/2.0e54fc90.chunk.js",
-    "static/js/2.0e54fc90.chunk.js.map": "/PS5/static/js/2.0e54fc90.chunk.js.map",
-    "static/js/3.931dd903.chunk.js": "/PS5/static/js/3.931dd903.chunk.js",
-    "static/js/3.931dd903.chunk.js.map": "/PS5/static/js/3.931dd903.chunk.js.map",
-    "index.html": "/PS5/index.html",
-    "static/css/main.bab75964.chunk.css.map": "/PS5/static/css/main.bab75964.chunk.css.map",
-    "static/js/2.0e54fc90.chunk.js.LICENSE.txt": "/PS5/static/js/2.0e54fc90.chunk.js.LICENSE.txt",
-    "static/media/1.8235c943.png": "/PS5/static/media/1.8235c943.png",
-    "static/media/reset.css": "/PS5/static/media/TitilliumWeb-Regular.a9029a54.ttf"
+    "main.css": "/ps5/static/css/main.7902146c.chunk.css",
+    "main.js": "/ps5/static/js/main.9e52a2c5.chunk.js",
+    "main.js.map": "/ps5/static/js/main.9e52a2c5.chunk.js.map",
+    "runtime-main.js": "/ps5/static/js/runtime-main.bc7cff07.js",
+    "runtime-main.js.map": "/ps5/static/js/runtime-main.bc7cff07.js.map",
+    "static/js/2.8bb36760.chunk.js": "/ps5/static/js/2.8bb36760.chunk.js",
+    "static/js/2.8bb36760.chunk.js.map": "/ps5/static/js/2.8bb36760.chunk.js.map",
+    "static/js/3.931dd903.chunk.js": "/ps5/static/js/3.931dd903.chunk.js",
+    "static/js/3.931dd903.chunk.js.map": "/ps5/static/js/3.931dd903.chunk.js.map",
+    "index.html": "/ps5/index.html",
+    "static/css/main.7902146c.chunk.css.map": "/ps5/static/css/main.7902146c.chunk.css.map",
+    "static/js/2.8bb36760.chunk.js.LICENSE.txt": "/ps5/static/js/2.8bb36760.chunk.js.LICENSE.txt",
+    "static/media/1.8235c943.png": "/ps5/static/media/1.8235c943.png",
+    "static/media/reset.css": "/ps5/static/media/TitilliumWeb-Regular.a9029a54.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.df937b84.js",
-    "static/js/2.0e54fc90.chunk.js",
-    "static/css/main.bab75964.chunk.css",
+    "static/js/runtime-main.bc7cff07.js",
+    "static/js/2.8bb36760.chunk.js",
+    "static/css/main.7902146c.chunk.css",
     "static/js/main.9e52a2c5.chunk.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "frontend_base_dapp",
   "version": "0.1.0",
-  "homepage": "https://mallcrypto.github.io/PS5",
+  "homepage": "https://mallcrypto.github.io/ps5",
   "private": true,
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0",
